@@ -1,0 +1,102 @@
+header{
+ 
+    background-color: rgb(109, 105, 105);
+    color: white;
+    text-align: center;
+ 
+  
+  }
+  *{
+    margin: 0;
+    padding: 0;
+text-align: center;
+font-family: Arial,Tahoma;
+  }
+  div{
+    background-color: ghostwhite;
+    margin-top: 10px;
+    border: darkgray 1px solid;
+    width: 100%;   
+    margin-right: -350px;
+    position: relative;
+   
+  }
+  div header{
+   background-color: lightgrey;
+   color: black;
+  }
+  div p{
+background-color: seashell;
+  }
+main{
+background-color: lightgrey;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+
+}
+main p{
+ text-align: center;
+}
+ 
+nav{
+  padding: 20px;
+  text-align: center;
+ background-color: darkgray;
+}
+nav ul li{
+  display: inline-block;
+}
+.ul :after
+{
+  content: " |";
+}
+
+.ul li :last-child 
+{
+  content: "";
+}
+.clear{
+  clear: both;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+  
+}
+.asid{
+  float: right;
+  width: 20%;
+ margin: 0px;
+
+
+ 
+}
+.asid section{
+
+  background-color: darkgrey;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px black solid;
+}
+.asid section h4{
+
+ background-color: linen;
+  padding: 10px;
+}
+.asid section ul{
+  margin-top: 10px;
+ 
+}
+div{
+  margin-top: 10px;
+}
+.long{
+  width: 200px;
+  
+}
+
